@@ -1,5 +1,7 @@
 # React-DevDiary
 
+Check out the [accompanying short blog series](https://jonhilton.net/series/learning-to-use-react-with-asp.net-core-web-api/) for more info...
+
 ## Quick start
 
 Open up a terminal (e.g. in VS Code, or the command line in windows explorer).
