@@ -5,11 +5,11 @@ export default class MyUsers extends React.Component<any, IState>{
 
     public state: IState = {
         loading: false,
-        "users": []        
+        "users": []
     };
 
     public async componentDidMount() {
-         this.setState({ loading: true });
+        this.setState({ loading: true });
         const result = await fetch('https://localhost:5001/api/user');
         const users = await result.json();
         this.setState({ users, loading: false });
@@ -24,7 +24,7 @@ export default class MyUsers extends React.Component<any, IState>{
                     <tbody>
                         {this.state.users.map(user => <UserRow key={user.id} user={user} />)}
                     </tbody>
-                </table>
+                </table>               
             </div>
         );
     }

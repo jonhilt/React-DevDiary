@@ -12,5 +12,4 @@ export default class UserRow extends React.Component<any, any>{
             </tr>
         )
     }
-
 }
